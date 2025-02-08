@@ -5,30 +5,24 @@ name: .NET
 
 on:
   push:
-    branches: 
-    - master
+    branches: [ "master" ]
   pull_request:
-    branches: 
-    - master
+    branches: [ "master" ]
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
 
-    env:
-      PROJ_PATH: Qel.Common.Telemetry.Serilog
-      TEST_PATH: Qel.Common.Telemetry.Serilog.Tests
-
     steps:
     - uses: actions/checkout@v4
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: 9.0.x
+        dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore $PROJ_PATH
+      run: dotnet restore
     - name: Build
-      run: dotnet build $PROJ_PATH --no-restore
+      run: dotnet build --no-restore
     - name: Test
-      run: dotnet $TEST_PATH test --no-build --verbosity normal
+      run: dotnet test --no-build --verbosity normal
