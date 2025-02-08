@@ -16,6 +16,10 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    env:
+      PROJ_PATH: Qel.Common.Telemetry.Serilog
+      TEST_PATH: Qel.Common.Telemetry.Serilog.Tests
+
     steps:
     - uses: actions/checkout@v4
     - name: Setup .NET
@@ -23,8 +27,8 @@ jobs:
       with:
         dotnet-version: 9.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet $PROJ_PATH restore
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build $PROJ_PATH --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet $TEST_PATH test --no-build --verbosity normal
