@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qel.Common.Telemetry.Serilog", "Qel.Common.Telemetry.Serilog.csproj", "{402C003B-4534-47CE-9425-21776ED08A0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qel.Common.Telemetry.Abstractions", "..\Qel.Common.Telemetry.Abstractions\Qel.Common.Telemetry.Abstractions.csproj", "{71D4F017-375D-4D76-AD81-F3C3B8929C8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qel.Common.Telemetry.Serilog.Tests", "..\Qel.Common.Telemetry.Serilog.Tests\Qel.Common.Telemetry.Serilog.Tests.csproj", "{9BC3CF08-B252-417A-A48E-153EA0EA2FCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{402C003B-4534-47CE-9425-21776ED08A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402C003B-4534-47CE-9425-21776ED08A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402C003B-4534-47CE-9425-21776ED08A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402C003B-4534-47CE-9425-21776ED08A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D4F017-375D-4D76-AD81-F3C3B8929C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D4F017-375D-4D76-AD81-F3C3B8929C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D4F017-375D-4D76-AD81-F3C3B8929C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D4F017-375D-4D76-AD81-F3C3B8929C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC3CF08-B252-417A-A48E-153EA0EA2FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC3CF08-B252-417A-A48E-153EA0EA2FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC3CF08-B252-417A-A48E-153EA0EA2FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC3CF08-B252-417A-A48E-153EA0EA2FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
