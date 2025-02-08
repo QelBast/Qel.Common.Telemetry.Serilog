@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Qel.Common.Telemetry.Serilog.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+396fbf00ab37fdfb35fa8b1680b2efa6f575a195")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d531f88251c66ef735d6052a3efc8ce77e8c5fcf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Qel.Common.Telemetry.Serilog.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Qel.Common.Telemetry.Serilog.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
