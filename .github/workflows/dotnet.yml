@@ -27,7 +27,7 @@ jobs:
       with:
         dotnet-version: 9.0.x
     - name: Restore dependencies
-      run: dotnet $PROJ_PATH restore
+      run: dotnet restore $PROJ_PATH
     - name: Build
       run: dotnet build $PROJ_PATH --no-restore
     - name: Test
